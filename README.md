@@ -1,38 +1,39 @@
-# sv
+# CourtSync - Tennis Live Scores
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Project Overview
 
-## Creating a project
+CourtSync is a comprehensive platform designed to solve a common problem in tennis tournaments: the unpredictable timing of matches. By providing real-time score tracking across multiple courts, CourtSync eliminates waiting frustrations and keeps players informed of exactly when their court will be available.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Key Features
 
-```bash
-# create a new project in the current directory
-npx sv create
+- **Live Score Dashboard**: Track multiple matches simultaneously on a single screen
+- **Bluetooth Hardware Integration**: Connect mechanical scoreboards to automatically capture scores
+- **Mobile App**: Manually input scores or connect with nearby scoreboards
+- **Web Platform**: Display live match data and custom dashboards for clubs
+- **Battery-Optimized Design**: Hardware clients designed for extended court-side usage
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Team Members
 
-## Developing
+- **Dominik Ötvös** - Developer
+- **Luka Ojdanić** - Developer 
+- **Ngoc Duy Lâm** - Developer
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Development Journey
 
-```bash
-npm run dev
+As computer science students at KdG, we took on the challenge of developing CourtSync in just 6 weeks. Our project required us to learn entirely new technologies: .NET, Blazor, C#, and MAUI. We integrated three components: an Arduino-based hardware client using Hall Effect sensors to detect scoreboard changes, a mobile application for Bluetooth connectivity, and a web platform to display real-time match data.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Learn More
 
-## Building
+- [Read our full development journey on Medium](https://medium.com/@luka.ojdanic/learning-journey-developing-courtsync-a-system-for-amateur-players-to-track-available-courts-321be1f6ed5e)
+- [View our pitch video](/pitch_video.mp4)
+- [View the project presentation](https://docs.google.com/presentation/d/1s0FvP9yNLEzs5tzuPZvuMSXekWtMwgHr_itbevhwc9U/edit?usp=sharing)
 
-To create a production version of your app:
+## Connect With Us
 
-```bash
-npm run build
-```
+- [Dominik Ötvös on LinkedIn](https://linkedin.com/in/dominikotvos)  
+- [Luka Ojdanić on LinkedIn](https://linkedin.com/in/luka-ojdanic)
+- [Ngoc Duy Lâm on LinkedIn](https://linkedin.com/in/ngoc-duy-lam)
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+© 2025 Linux Goons. Project completed for KdG University of Applied Sciences and Arts.
