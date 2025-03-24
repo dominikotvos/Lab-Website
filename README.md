@@ -22,12 +22,6 @@ CourtSync is a comprehensive platform designed to solve a common problem in tenn
 
 As computer science students at KdG, we took on the challenge of developing CourtSync in just 6 weeks. Our project required us to learn entirely new technologies: .NET, Blazor, C#, and MAUI. We integrated three components: an Arduino-based hardware client using Hall Effect sensors to detect scoreboard changes, a mobile application for Bluetooth connectivity, and a web platform to display real-time match data.
 
-## Learn More
-
-- [Read our full development journey on Medium](https://medium.com/@luka.ojdanic/learning-journey-developing-courtsync-a-system-for-amateur-players-to-track-available-courts-321be1f6ed5e)
-- [View our pitch video](static/pitch_video.mp4)
-- [View the project presentation](https://docs.google.com/presentation/d/1s0FvP9yNLEzs5tzuPZvuMSXekWtMwgHr_itbevhwc9U/edit?usp=sharing)
-
 ## Connect With Us
 
 - [Dominik Ötvös on LinkedIn](https://linkedin.com/in/dominikotvos)  
