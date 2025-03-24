@@ -134,6 +134,9 @@
                     href="#presentation"
                     class="hover:text-primary transition-colors">Presentation</a
                 >
+                <a href="#connect" class="hover:text-primary transition-colors"
+                    >Connect</a
+                >
             </div>
         </div>
 
@@ -174,11 +177,16 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                        <span style="color: var(--primary);">Showcase</span> Your
-                        Vision
+                        <span style="color: var(--primary);">Track</span> Tennis
+                        Matches Live
                     </h1>
                     <p class="text-lg mb-8 opacity-80">
-                        pitch will go here
+                        CourtSync transforms the tennis tournament experience by
+                        providing real-time score tracking across multiple
+                        courts. Our integrated system connects mechanical
+                        scoreboards via Bluetooth to eliminate waiting
+                        frustrations and keep players informed of exactly when
+                        their court will be available.
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <a href="#about" class="btn btn-primary">Learn More</a>
@@ -204,10 +212,9 @@
                                 <video
                                     class="w-full h-full object-cover"
                                     controls
-                                    poster="https://images.unsplash.com/photo-1578496480157-697fc14d2e55?q=80&w=1000"
                                 >
                                     <source
-                                        src="ourvideo.mp4"
+                                        src="pitch_video.mp4"
                                         type="video/mp4"
                                     />
                                     <track
@@ -238,7 +245,31 @@
                     >
                 </h2>
                 <div class="card p-8 space-y-4" style="opacity: 0.9;">
-                    <p>we will have the article here</p>
+                    <p>
+                        As third-year computer science students at KdG, we took
+                        on the challenge of developing CourtSync in just 6
+                        weeks. With backgrounds in Java, Python, and Spring
+                        Boot, we dove into entirely new technologies: .NET,
+                        Blazor, C#, and MAUI.
+                    </p>
+
+                    <p>
+                        Our project involved three integrated components: an
+                        Arduino-based hardware client with Hall Effect sensors
+                        to detect scoreboard changes, a mobile application to
+                        connect with scoreboards via Bluetooth Low Energy, and a
+                        web platform to display real-time match data.
+                    </p>
+
+                    <p>
+                        We optimized battery life, implemented cross-platform
+                        functionality, and created a system that solves a real
+                        problem for tennis players and clubs. Through this
+                        journey, we transformed from language-specific
+                        programmers to technology-agnostic problem solvers ready
+                        to tackle complex challenges in the software development
+                        industry.
+                    </p>
                 </div>
             </div>
         </div>
@@ -358,6 +389,7 @@
     <!-- Call to Action / Connect Section -->
     <section
         class="section relative overflow-hidden"
+        id="connect"
         style="background: linear-gradient(to bottom right, var(--surface), var(--surface), var(--background));"
     >
         <!-- Decorative Elements -->
@@ -460,3 +492,4 @@
         </div>
     </div>
 </footer>
+
