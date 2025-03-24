@@ -219,7 +219,7 @@
                                     />
                                     <track
                                         kind="captions"
-                                        src="captions.vtt"
+                                        src="subtitles.vtt"
                                         label="English"
                                         srclang="en"
                                         default
